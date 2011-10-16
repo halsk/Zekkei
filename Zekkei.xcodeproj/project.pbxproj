@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B550F3C144A7C3B00611A08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B550F3B144A7C3B00611A08 /* UIKit.framework */; };
+		2B550F3E144A7C3B00611A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B550F3D144A7C3B00611A08 /* Foundation.framework */; };
+		2B550F40144A7C3B00611A08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B550F3F144A7C3B00611A08 /* CoreGraphics.framework */; };
+		2B550F46144A7C3B00611A08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F44144A7C3B00611A08 /* InfoPlist.strings */; };
+		2B550F48144A7C3B00611A08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F47144A7C3B00611A08 /* main.m */; };
+		2B550F4C144A7C3C00611A08 /* ZKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F4B144A7C3C00611A08 /* ZKAppDelegate.m */; };
+		2B550F4F144A7C3C00611A08 /* ZKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */; };
+		2B550F51144A7C3C00611A08 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F50144A7C3C00611A08 /* first.png */; };
+		2B550F53144A7C3C00611A08 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F52144A7C3C00611A08 /* first@2x.png */; };
+		2B550F56144A7C3C00611A08 /* ZKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */; };
+		2B550F58144A7C3C00611A08 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F57144A7C3C00611A08 /* second.png */; };
+		2B550F5A144A7C3C00611A08 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F59144A7C3C00611A08 /* second@2x.png */; };
+		2B550F5D144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */; };
+		2B550F60144A7C3C00611A08 /* ZKFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */; };
+		2B550F63144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */; };
+		2B550F66144A7C3C00611A08 /* ZKSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B550F37144A7C3B00611A08 /* Zekkei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zekkei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B550F3B144A7C3B00611A08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B550F3D144A7C3B00611A08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B550F3F144A7C3B00611A08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B550F43144A7C3B00611A08 /* Zekkei-Info.plist */ = {isa = PBXFileReference; path = "Zekkei-Info.plist"; sourceTree = "<group>"; };
+		2B550F45144A7C3B00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B550F47144A7C3B00611A08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B550F49144A7C3C00611A08 /* Zekkei-Prefix.pch */ = {isa = PBXFileReference; path = "Zekkei-Prefix.pch"; sourceTree = "<group>"; };
+		2B550F4A144A7C3C00611A08 /* ZKAppDelegate.h */ = {isa = PBXFileReference; path = ZKAppDelegate.h; sourceTree = "<group>"; };
+		2B550F4B144A7C3C00611A08 /* ZKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKAppDelegate.m; sourceTree = "<group>"; };
+		2B550F4D144A7C3C00611A08 /* ZKFirstViewController.h */ = {isa = PBXFileReference; path = ZKFirstViewController.h; sourceTree = "<group>"; };
+		2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFirstViewController.m; sourceTree = "<group>"; };
+		2B550F50144A7C3C00611A08 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2B550F52144A7C3C00611A08 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2B550F54144A7C3C00611A08 /* ZKSecondViewController.h */ = {isa = PBXFileReference; path = ZKSecondViewController.h; sourceTree = "<group>"; };
+		2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSecondViewController.m; sourceTree = "<group>"; };
+		2B550F57144A7C3C00611A08 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2B550F59144A7C3C00611A08 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2B550F5C144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		2B550F5F144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		2B550F62144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKSecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		2B550F65144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKSecondViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B550F34144A7C3B00611A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B550F3C144A7C3B00611A08 /* UIKit.framework in Frameworks */,
+				2B550F3E144A7C3B00611A08 /* Foundation.framework in Frameworks */,
+				2B550F40144A7C3B00611A08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B550F2C144A7C3B00611A08 = {
+			isa = PBXGroup;
+			children = (
+				2B550F41144A7C3B00611A08 /* Zekkei */,
+				2B550F3A144A7C3B00611A08 /* Frameworks */,
+				2B550F38144A7C3B00611A08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B550F38144A7C3B00611A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B550F37144A7C3B00611A08 /* Zekkei.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B550F3A144A7C3B00611A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B550F3B144A7C3B00611A08 /* UIKit.framework */,
+				2B550F3D144A7C3B00611A08 /* Foundation.framework */,
+				2B550F3F144A7C3B00611A08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B550F41144A7C3B00611A08 /* Zekkei */ = {
+			isa = PBXGroup;
+			children = (
+				2B550F4A144A7C3C00611A08 /* ZKAppDelegate.h */,
+				2B550F4B144A7C3C00611A08 /* ZKAppDelegate.m */,
+				2B550F4D144A7C3C00611A08 /* ZKFirstViewController.h */,
+				2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */,
+				2B550F50144A7C3C00611A08 /* first.png */,
+				2B550F52144A7C3C00611A08 /* first@2x.png */,
+				2B550F54144A7C3C00611A08 /* ZKSecondViewController.h */,
+				2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */,
+				2B550F57144A7C3C00611A08 /* second.png */,
+				2B550F59144A7C3C00611A08 /* second@2x.png */,
+				2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */,
+				2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */,
+				2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */,
+				2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */,
+				2B550F42144A7C3B00611A08 /* Supporting Files */,
+			);
+			path = Zekkei;
+			sourceTree = "<group>";
+		};
+		2B550F42144A7C3B00611A08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B550F43144A7C3B00611A08 /* Zekkei-Info.plist */,
+				2B550F44144A7C3B00611A08 /* InfoPlist.strings */,
+				2B550F47144A7C3B00611A08 /* main.m */,
+				2B550F49144A7C3C00611A08 /* Zekkei-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B550F36144A7C3B00611A08 /* Zekkei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B550F69144A7C3C00611A08 /* Build configuration list for PBXNativeTarget "Zekkei" */;
+			buildPhases = (
+				2B550F33144A7C3B00611A08 /* Sources */,
+				2B550F34144A7C3B00611A08 /* Frameworks */,
+				2B550F35144A7C3B00611A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zekkei;
+			productName = Zekkei;
+			productReference = 2B550F37144A7C3B00611A08 /* Zekkei.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B550F2E144A7C3B00611A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Georepublic Japan";
+			};
+			buildConfigurationList = 2B550F31144A7C3B00611A08 /* Build configuration list for PBXProject "Zekkei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B550F2C144A7C3B00611A08;
+			productRefGroup = 2B550F38144A7C3B00611A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B550F36144A7C3B00611A08 /* Zekkei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B550F35144A7C3B00611A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B550F46144A7C3B00611A08 /* InfoPlist.strings in Resources */,
+				2B550F51144A7C3C00611A08 /* first.png in Resources */,
+				2B550F53144A7C3C00611A08 /* first@2x.png in Resources */,
+				2B550F58144A7C3C00611A08 /* second.png in Resources */,
+				2B550F5A144A7C3C00611A08 /* second@2x.png in Resources */,
+				2B550F5D144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib in Resources */,
+				2B550F60144A7C3C00611A08 /* ZKFirstViewController_iPad.xib in Resources */,
+				2B550F63144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib in Resources */,
+				2B550F66144A7C3C00611A08 /* ZKSecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B550F33144A7C3B00611A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B550F48144A7C3B00611A08 /* main.m in Sources */,
+				2B550F4C144A7C3C00611A08 /* ZKAppDelegate.m in Sources */,
+				2B550F4F144A7C3C00611A08 /* ZKFirstViewController.m in Sources */,
+				2B550F56144A7C3C00611A08 /* ZKSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B550F44144A7C3B00611A08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B550F45144A7C3B00611A08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B550F5C144A7C3C00611A08 /* en */,
+			);
+			name = ZKFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B550F5F144A7C3C00611A08 /* en */,
+			);
+			name = ZKFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B550F62144A7C3C00611A08 /* en */,
+			);
+			name = ZKSecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B550F65144A7C3C00611A08 /* en */,
+			);
+			name = ZKSecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B550F67144A7C3C00611A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B550F68144A7C3C00611A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B550F6A144A7C3C00611A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zekkei/Zekkei-Prefix.pch";
+				INFOPLIST_FILE = "Zekkei/Zekkei-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B550F6B144A7C3C00611A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zekkei/Zekkei-Prefix.pch";
+				INFOPLIST_FILE = "Zekkei/Zekkei-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B550F31144A7C3B00611A08 /* Build configuration list for PBXProject "Zekkei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B550F67144A7C3C00611A08 /* Debug */,
+				2B550F68144A7C3C00611A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B550F69144A7C3C00611A08 /* Build configuration list for PBXNativeTarget "Zekkei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B550F6A144A7C3C00611A08 /* Debug */,
+				2B550F6B144A7C3C00611A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B550F2E144A7C3B00611A08 /* Project object */;
+}
