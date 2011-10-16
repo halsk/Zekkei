@@ -118,12 +118,8 @@
 			children = (
 				2B550F4D144A7C3C00611A08 /* ZKFirstViewController.h */,
 				2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */,
-				2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */,
-				2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */,
 				2B550F54144A7C3C00611A08 /* ZKSecondViewController.h */,
 				2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */,
-				2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */,
-				2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -144,6 +140,10 @@
 				2B550F52144A7C3C00611A08 /* first@2x.png */,
 				2B550F57144A7C3C00611A08 /* second.png */,
 				2B550F59144A7C3C00611A08 /* second@2x.png */,
+				2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */,
+				2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */,
+				2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */,
+				2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */,
 			);
 			name = recources;
 			sourceTree = "<group>";
