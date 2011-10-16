@@ -26,8 +26,8 @@
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         viewController1 = [[ZKFeedViewController alloc] initWithNibName:@"ZKFeedViewController_iPhone" bundle:nil];
         viewController2 = [[ZKSearchViewController alloc] initWithNibName:@"ZKSearchViewController_iPhone" bundle:nil];
-        viewController3 = [[ZKSendViewController alloc] initWithNibName:@"ZKSendViewController_iPhone" bundle:nil];
-        viewController4 = [[ZKProfileViewController alloc] initWithNibName:@"ZKProfileViewController_iPhone" bundle:nil];
+        viewController3 = [[ZKSendViewController alloc] initWithNibName:@"ZKSendViewController" bundle:nil];
+        viewController4 = [[ZKProfileViewController alloc] initWithNibName:@"ZKProfileViewController" bundle:nil];
     } else {
         viewController1 = [[ZKFeedViewController alloc] initWithNibName:@"ZKFeedViewController_iPad" bundle:nil];
         viewController2 = [[ZKSearchViewController alloc] initWithNibName:@"ZKSearchViewController_iPad" bundle:nil];
