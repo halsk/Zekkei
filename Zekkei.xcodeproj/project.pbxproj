@@ -150,7 +150,6 @@
 				2B5ECC79144A854A0067DC0F /* ZKSendViewController.m */,
 				2B5ECC7D144A85650067DC0F /* ZKProfileViewController.h */,
 				2B5ECC7E144A85660067DC0F /* ZKProfileViewController.m */,
-				2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -180,6 +179,7 @@
 				2B550F61144A7C3C00611A08 /* ZKSearchViewController_iPhone.xib */,
 				2B550F64144A7C3C00611A08 /* ZKSearchViewController_iPad.xib */,
 				2B5ECC7A144A854A0067DC0F /* ZKSendViewController.xib */,
+				2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */,
 			);
 			name = recources;
 			sourceTree = "<group>";
