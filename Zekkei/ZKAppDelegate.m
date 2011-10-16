@@ -8,9 +8,10 @@
 
 #import "ZKAppDelegate.h"
 
-#import "ZKFirstViewController.h"
-
-#import "ZKSecondViewController.h"
+#import "ZKFeedViewController.h"
+#import "ZKSearchViewController.h"
+#import "ZKSendViewController.h"
+#import "ZKProfileViewController.h"
 
 @implementation ZKAppDelegate
 
@@ -21,18 +22,25 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
+    UIViewController *viewController1, *viewController2,*viewController3,*viewController4;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[ZKFirstViewController alloc] initWithNibName:@"ZKFirstViewController_iPhone" bundle:nil];
-        viewController2 = [[ZKSecondViewController alloc] initWithNibName:@"ZKSecondViewController_iPhone" bundle:nil];
+        viewController1 = [[ZKFeedViewController alloc] initWithNibName:@"ZKFeedViewController_iPhone" bundle:nil];
+        viewController2 = [[ZKSearchViewController alloc] initWithNibName:@"ZKSearchViewController_iPhone" bundle:nil];
+        viewController3 = [[ZKSendViewController alloc] initWithNibName:@"ZKSendViewController_iPhone" bundle:nil];
+        viewController4 = [[ZKProfileViewController alloc] initWithNibName:@"ZKProfileViewController_iPhone" bundle:nil];
     } else {
-        viewController1 = [[ZKFirstViewController alloc] initWithNibName:@"ZKFirstViewController_iPad" bundle:nil];
-        viewController2 = [[ZKSecondViewController alloc] initWithNibName:@"ZKSecondViewController_iPad" bundle:nil];
+        viewController1 = [[ZKFeedViewController alloc] initWithNibName:@"ZKFeedViewController_iPad" bundle:nil];
+        viewController2 = [[ZKSearchViewController alloc] initWithNibName:@"ZKSearchViewController_iPad" bundle:nil];
+        viewController3 = [[ZKSendViewController alloc] initWithNibName:@"ZKSendViewController" bundle:nil];
+        viewController4 = [[ZKProfileViewController alloc] initWithNibName:@"ZKProfileViewController" bundle:nil];
     }
     UINavigationController *navCtrl1 = [[UINavigationController alloc] initWithRootViewController:viewController1];
+    UINavigationController *navCtrl2 = [[UINavigationController alloc] initWithRootViewController:viewController2];
+    UINavigationController *navCtrl3 = [[UINavigationController alloc] initWithRootViewController:viewController3];
+    UINavigationController *navCtrl4 = [[UINavigationController alloc] initWithRootViewController:viewController4];
     
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navCtrl1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navCtrl1, navCtrl2,navCtrl3,navCtrl4, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

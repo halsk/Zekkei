@@ -13,21 +13,25 @@
 		2B550F46144A7C3B00611A08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F44144A7C3B00611A08 /* InfoPlist.strings */; };
 		2B550F48144A7C3B00611A08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F47144A7C3B00611A08 /* main.m */; };
 		2B550F4C144A7C3C00611A08 /* ZKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F4B144A7C3C00611A08 /* ZKAppDelegate.m */; };
-		2B550F4F144A7C3C00611A08 /* ZKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */; };
+		2B550F4F144A7C3C00611A08 /* ZKFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F4E144A7C3C00611A08 /* ZKFeedViewController.m */; };
 		2B550F51144A7C3C00611A08 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F50144A7C3C00611A08 /* first.png */; };
 		2B550F53144A7C3C00611A08 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F52144A7C3C00611A08 /* first@2x.png */; };
-		2B550F56144A7C3C00611A08 /* ZKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */; };
+		2B550F56144A7C3C00611A08 /* ZKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B550F55144A7C3C00611A08 /* ZKSearchViewController.m */; };
 		2B550F58144A7C3C00611A08 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F57144A7C3C00611A08 /* second.png */; };
 		2B550F5A144A7C3C00611A08 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F59144A7C3C00611A08 /* second@2x.png */; };
-		2B550F5D144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */; };
-		2B550F60144A7C3C00611A08 /* ZKFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */; };
-		2B550F63144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */; };
-		2B550F66144A7C3C00611A08 /* ZKSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */; };
+		2B550F5D144A7C3C00611A08 /* ZKFeedViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F5B144A7C3C00611A08 /* ZKFeedViewController_iPhone.xib */; };
+		2B550F60144A7C3C00611A08 /* ZKFeedViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F5E144A7C3C00611A08 /* ZKFeedViewController_iPad.xib */; };
+		2B550F63144A7C3C00611A08 /* ZKSearchViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F61144A7C3C00611A08 /* ZKSearchViewController_iPhone.xib */; };
+		2B550F66144A7C3C00611A08 /* ZKSearchViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F64144A7C3C00611A08 /* ZKSearchViewController_iPad.xib */; };
 		2B550F75144A80BF00611A08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B550F77144A80BF00611A08 /* Localizable.strings */; };
 		2B5ECC73144A82A30067DC0F /* icon_feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC6F144A82A30067DC0F /* icon_feed.png */; };
 		2B5ECC74144A82A30067DC0F /* icon_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC70144A82A30067DC0F /* icon_profile.png */; };
 		2B5ECC75144A82A30067DC0F /* icon_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC71144A82A30067DC0F /* icon_search.png */; };
 		2B5ECC76144A82A30067DC0F /* icon_send.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC72144A82A30067DC0F /* icon_send.png */; };
+		2B5ECC7B144A854A0067DC0F /* ZKSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5ECC79144A854A0067DC0F /* ZKSendViewController.m */; };
+		2B5ECC7C144A854A0067DC0F /* ZKSendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC7A144A854A0067DC0F /* ZKSendViewController.xib */; };
+		2B5ECC80144A85660067DC0F /* ZKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5ECC7E144A85660067DC0F /* ZKProfileViewController.m */; };
+		2B5ECC81144A85660067DC0F /* ZKProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,24 +45,30 @@
 		2B550F49144A7C3C00611A08 /* Zekkei-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zekkei-Prefix.pch"; sourceTree = "<group>"; };
 		2B550F4A144A7C3C00611A08 /* ZKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKAppDelegate.h; sourceTree = "<group>"; };
 		2B550F4B144A7C3C00611A08 /* ZKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKAppDelegate.m; sourceTree = "<group>"; };
-		2B550F4D144A7C3C00611A08 /* ZKFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFirstViewController.h; sourceTree = "<group>"; };
-		2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFirstViewController.m; sourceTree = "<group>"; };
+		2B550F4D144A7C3C00611A08 /* ZKFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFeedViewController.h; sourceTree = "<group>"; };
+		2B550F4E144A7C3C00611A08 /* ZKFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFeedViewController.m; sourceTree = "<group>"; };
 		2B550F50144A7C3C00611A08 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		2B550F52144A7C3C00611A08 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		2B550F54144A7C3C00611A08 /* ZKSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSecondViewController.h; sourceTree = "<group>"; };
-		2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSecondViewController.m; sourceTree = "<group>"; };
+		2B550F54144A7C3C00611A08 /* ZKSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSearchViewController.h; sourceTree = "<group>"; };
+		2B550F55144A7C3C00611A08 /* ZKSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSearchViewController.m; sourceTree = "<group>"; };
 		2B550F57144A7C3C00611A08 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		2B550F59144A7C3C00611A08 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		2B550F5C144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		2B550F5F144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFirstViewController_iPad.xib; sourceTree = "<group>"; };
-		2B550F62144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKSecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		2B550F65144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		2B550F5C144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFeedViewController_iPhone.xib; sourceTree = "<group>"; };
+		2B550F5F144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFeedViewController_iPad.xib; sourceTree = "<group>"; };
+		2B550F62144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKSearchViewController_iPhone.xib; sourceTree = "<group>"; };
+		2B550F65144A7C3C00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKSearchViewController_iPad.xib; sourceTree = "<group>"; };
 		2B550F76144A80BF00611A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2B550F78144A80D100611A08 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2B5ECC6F144A82A30067DC0F /* icon_feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_feed.png; sourceTree = "<group>"; };
 		2B5ECC70144A82A30067DC0F /* icon_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_profile.png; sourceTree = "<group>"; };
 		2B5ECC71144A82A30067DC0F /* icon_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search.png; sourceTree = "<group>"; };
 		2B5ECC72144A82A30067DC0F /* icon_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_send.png; sourceTree = "<group>"; };
+		2B5ECC78144A854A0067DC0F /* ZKSendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSendViewController.h; sourceTree = "<group>"; };
+		2B5ECC79144A854A0067DC0F /* ZKSendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSendViewController.m; sourceTree = "<group>"; };
+		2B5ECC7A144A854A0067DC0F /* ZKSendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKSendViewController.xib; sourceTree = "<group>"; };
+		2B5ECC7D144A85650067DC0F /* ZKProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKProfileViewController.h; sourceTree = "<group>"; };
+		2B5ECC7E144A85660067DC0F /* ZKProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKProfileViewController.m; sourceTree = "<group>"; };
+		2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +138,15 @@
 		2B550F70144A7D5C00611A08 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				2B550F4D144A7C3C00611A08 /* ZKFirstViewController.h */,
-				2B550F4E144A7C3C00611A08 /* ZKFirstViewController.m */,
-				2B550F54144A7C3C00611A08 /* ZKSecondViewController.h */,
-				2B550F55144A7C3C00611A08 /* ZKSecondViewController.m */,
+				2B550F4D144A7C3C00611A08 /* ZKFeedViewController.h */,
+				2B550F4E144A7C3C00611A08 /* ZKFeedViewController.m */,
+				2B550F54144A7C3C00611A08 /* ZKSearchViewController.h */,
+				2B550F55144A7C3C00611A08 /* ZKSearchViewController.m */,
+				2B5ECC78144A854A0067DC0F /* ZKSendViewController.h */,
+				2B5ECC79144A854A0067DC0F /* ZKSendViewController.m */,
+				2B5ECC7D144A85650067DC0F /* ZKProfileViewController.h */,
+				2B5ECC7E144A85660067DC0F /* ZKProfileViewController.m */,
+				2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -156,10 +171,11 @@
 				2B550F52144A7C3C00611A08 /* first@2x.png */,
 				2B550F57144A7C3C00611A08 /* second.png */,
 				2B550F59144A7C3C00611A08 /* second@2x.png */,
-				2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */,
-				2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */,
-				2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */,
-				2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */,
+				2B550F5B144A7C3C00611A08 /* ZKFeedViewController_iPhone.xib */,
+				2B550F5E144A7C3C00611A08 /* ZKFeedViewController_iPad.xib */,
+				2B550F61144A7C3C00611A08 /* ZKSearchViewController_iPhone.xib */,
+				2B550F64144A7C3C00611A08 /* ZKSearchViewController_iPad.xib */,
+				2B5ECC7A144A854A0067DC0F /* ZKSendViewController.xib */,
 			);
 			name = recources;
 			sourceTree = "<group>";
@@ -221,15 +237,17 @@
 				2B550F53144A7C3C00611A08 /* first@2x.png in Resources */,
 				2B550F58144A7C3C00611A08 /* second.png in Resources */,
 				2B550F5A144A7C3C00611A08 /* second@2x.png in Resources */,
-				2B550F5D144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib in Resources */,
-				2B550F60144A7C3C00611A08 /* ZKFirstViewController_iPad.xib in Resources */,
-				2B550F63144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib in Resources */,
-				2B550F66144A7C3C00611A08 /* ZKSecondViewController_iPad.xib in Resources */,
+				2B550F5D144A7C3C00611A08 /* ZKFeedViewController_iPhone.xib in Resources */,
+				2B550F60144A7C3C00611A08 /* ZKFeedViewController_iPad.xib in Resources */,
+				2B550F63144A7C3C00611A08 /* ZKSearchViewController_iPhone.xib in Resources */,
+				2B550F66144A7C3C00611A08 /* ZKSearchViewController_iPad.xib in Resources */,
 				2B550F75144A80BF00611A08 /* Localizable.strings in Resources */,
 				2B5ECC73144A82A30067DC0F /* icon_feed.png in Resources */,
 				2B5ECC74144A82A30067DC0F /* icon_profile.png in Resources */,
 				2B5ECC75144A82A30067DC0F /* icon_search.png in Resources */,
 				2B5ECC76144A82A30067DC0F /* icon_send.png in Resources */,
+				2B5ECC7C144A854A0067DC0F /* ZKSendViewController.xib in Resources */,
+				2B5ECC81144A85660067DC0F /* ZKProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,8 +260,10 @@
 			files = (
 				2B550F48144A7C3B00611A08 /* main.m in Sources */,
 				2B550F4C144A7C3C00611A08 /* ZKAppDelegate.m in Sources */,
-				2B550F4F144A7C3C00611A08 /* ZKFirstViewController.m in Sources */,
-				2B550F56144A7C3C00611A08 /* ZKSecondViewController.m in Sources */,
+				2B550F4F144A7C3C00611A08 /* ZKFeedViewController.m in Sources */,
+				2B550F56144A7C3C00611A08 /* ZKSearchViewController.m in Sources */,
+				2B5ECC7B144A854A0067DC0F /* ZKSendViewController.m in Sources */,
+				2B5ECC80144A85660067DC0F /* ZKProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,36 +278,36 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2B550F5B144A7C3C00611A08 /* ZKFirstViewController_iPhone.xib */ = {
+		2B550F5B144A7C3C00611A08 /* ZKFeedViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2B550F5C144A7C3C00611A08 /* en */,
 			);
-			name = ZKFirstViewController_iPhone.xib;
+			name = ZKFeedViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		2B550F5E144A7C3C00611A08 /* ZKFirstViewController_iPad.xib */ = {
+		2B550F5E144A7C3C00611A08 /* ZKFeedViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2B550F5F144A7C3C00611A08 /* en */,
 			);
-			name = ZKFirstViewController_iPad.xib;
+			name = ZKFeedViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		2B550F61144A7C3C00611A08 /* ZKSecondViewController_iPhone.xib */ = {
+		2B550F61144A7C3C00611A08 /* ZKSearchViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2B550F62144A7C3C00611A08 /* en */,
 			);
-			name = ZKSecondViewController_iPhone.xib;
+			name = ZKSearchViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		2B550F64144A7C3C00611A08 /* ZKSecondViewController_iPad.xib */ = {
+		2B550F64144A7C3C00611A08 /* ZKSearchViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2B550F65144A7C3C00611A08 /* en */,
 			);
-			name = ZKSecondViewController_iPad.xib;
+			name = ZKSearchViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		2B550F77144A80BF00611A08 /* Localizable.strings */ = {
