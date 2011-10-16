@@ -14,8 +14,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.title = NSLocalizedString(@"feed", @"title of feed");
+        self.tabBarItem.image = [UIImage imageNamed:@"icon_feed"];
     }
     return self;
 }
@@ -31,8 +31,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    UIColor *tintColor;
+    tintColor = [UIColor blackColor];
+    self.navigationController.navigationBar.tintColor = tintColor;
+
+    // this will appear as the title in the navigation bar
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+    label.backgroundColor = [UIColor clearColor];
+    label.font = [UIFont boldSystemFontOfSize:20.0];
+    label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
+    label.textAlignment = UITextAlignmentCenter;
+    label.textColor = [UIColor orangeColor]; // change this color
+    self.navigationItem.titleView = label;
+    label.text = NSLocalizedString(@"zekkei", @"zekkei");
+    [label sizeToFit];}
 
 - (void)viewDidUnload
 {
