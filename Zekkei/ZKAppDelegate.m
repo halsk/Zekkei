@@ -29,8 +29,10 @@
         viewController1 = [[ZKFirstViewController alloc] initWithNibName:@"ZKFirstViewController_iPad" bundle:nil];
         viewController2 = [[ZKSecondViewController alloc] initWithNibName:@"ZKSecondViewController_iPad" bundle:nil];
     }
+    UINavigationController *navCtrl1 = [[UINavigationController alloc] initWithRootViewController:viewController1];
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navCtrl1, viewController2, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
