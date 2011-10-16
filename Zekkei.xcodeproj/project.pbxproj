@@ -32,6 +32,7 @@
 		2B5ECC7C144A854A0067DC0F /* ZKSendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC7A144A854A0067DC0F /* ZKSendViewController.xib */; };
 		2B5ECC80144A85660067DC0F /* ZKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5ECC7E144A85660067DC0F /* ZKProfileViewController.m */; };
 		2B5ECC81144A85660067DC0F /* ZKProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */; };
+		2B5ECC85144A8B7E0067DC0F /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5ECC84144A8B7E0067DC0F /* Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,8 @@
 		2B5ECC7D144A85650067DC0F /* ZKProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKProfileViewController.h; sourceTree = "<group>"; };
 		2B5ECC7E144A85660067DC0F /* ZKProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKProfileViewController.m; sourceTree = "<group>"; };
 		2B5ECC7F144A85660067DC0F /* ZKProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKProfileViewController.xib; sourceTree = "<group>"; };
+		2B5ECC83144A8B7E0067DC0F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		2B5ECC84144A8B7E0067DC0F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		2B550F41144A7C3B00611A08 /* Zekkei */ = {
 			isa = PBXGroup;
 			children = (
+				2B5ECC82144A8B6A0067DC0F /* common */,
 				2B550F72144A7D8800611A08 /* recources */,
 				2B550F71144A7D7800611A08 /* main */,
 				2B550F70144A7D5C00611A08 /* ui */,
@@ -178,6 +182,15 @@
 				2B5ECC7A144A854A0067DC0F /* ZKSendViewController.xib */,
 			);
 			name = recources;
+			sourceTree = "<group>";
+		};
+		2B5ECC82144A8B6A0067DC0F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2B5ECC83144A8B7E0067DC0F /* Common.h */,
+				2B5ECC84144A8B7E0067DC0F /* Common.m */,
+			);
+			name = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 				2B550F56144A7C3C00611A08 /* ZKSearchViewController.m in Sources */,
 				2B5ECC7B144A854A0067DC0F /* ZKSendViewController.m in Sources */,
 				2B5ECC80144A85660067DC0F /* ZKProfileViewController.m in Sources */,
+				2B5ECC85144A8B7E0067DC0F /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ZKProfileViewController.h"
+#import "Common.h"
 
 @implementation ZKProfileViewController
 
@@ -33,7 +34,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBar.tintColor = [Common titleTintColor];
+    self.navigationItem.titleView = [Common titleWithText:NSLocalizedString(@"Profile", @"Profile")];
 }
 
 - (void)viewDidUnload

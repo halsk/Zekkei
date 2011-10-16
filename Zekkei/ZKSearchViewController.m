@@ -7,6 +7,7 @@
 //
 
 #import "ZKSearchViewController.h"
+#import "Common.h"
 
 @implementation ZKSearchViewController
 
@@ -31,7 +32,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.navigationController.navigationBar.tintColor = [Common titleTintColor];
+    self.navigationItem.titleView = [Common titleWithText:NSLocalizedString(@"Search", @"Search")];
 }
 
 - (void)viewDidUnload

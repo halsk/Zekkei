@@ -7,6 +7,7 @@
 //
 
 #import "ZKSendViewController.h"
+#import "Common.h"
 
 @implementation ZKSendViewController
 
@@ -33,7 +34,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBar.tintColor = [Common titleTintColor];
+    self.navigationItem.titleView = [Common titleWithText:NSLocalizedString(@"Send", @"Send")];
 }
 
 - (void)viewDidUnload

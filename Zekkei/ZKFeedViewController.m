@@ -7,6 +7,7 @@
 //
 
 #import "ZKFeedViewController.h"
+#import "Common.h"
 
 @implementation ZKFeedViewController
 
@@ -31,21 +32,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIColor *tintColor;
-    tintColor = [UIColor blackColor];
-    self.navigationController.navigationBar.tintColor = tintColor;
-
-    // this will appear as the title in the navigation bar
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
-    label.backgroundColor = [UIColor clearColor];
-    label.font = [UIFont boldSystemFontOfSize:20.0];
-    label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
-    label.textAlignment = UITextAlignmentCenter;
-    label.textColor = [UIColor orangeColor]; // change this color
-    self.navigationItem.titleView = label;
-    label.text = NSLocalizedString(@"zekkei", @"zekkei");
-    [label sizeToFit];}
-
+    self.navigationController.navigationBar.tintColor = [Common titleTintColor];
+    self.navigationItem.titleView = [Common titleWithText:NSLocalizedString(@"zekkei", @"zekkei")];
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
